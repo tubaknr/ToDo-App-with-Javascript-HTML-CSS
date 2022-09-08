@@ -1,0 +1,52 @@
+#submit{
+    background-color: #98FB98;
+    border-radius: 5px;
+    font-family: Copperplate, Papyrus, serif; 
+}
+
+#clear{
+    background-color:#FFA07A;
+    border-radius: 5px;
+    font-family: Copperplate, Papyrus, serif; 
+}
+
+#item{
+    border-radius: 5px;
+}
+
+#add{
+    font-size: 30px;
+}
+
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdwallpaperim.com%2Fwp-content%2Fuploads%2F2017%2F08%2F24%2F102151-sea-underwater.jpg&f=1&nofb=1");
+    text-align: center;
+    font-family: Copperplate, Papyrus, serif; 
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+#list{
+    text-align: center;
+    font-family: Copperplate, Papyrus, serif; 
+}
+
+#doneList{
+    text-align: center;
+    font-family: Copperplate, Papyrus, serif; 
+
+}
+#list1{
+    text-align: center;
+    font-family: Copperplate, Papyrus, serif; 
+}
+
+#doneList1{
+    text-align: center;
+    font-family: Copperplate, Papyrus, serif; 
+}
+
+
+ol{
+    display: inline-block;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>ToDo App</title>
+    </head>
+    <body>
+
+        <label id="add"><b>Add an item:</b></label><br>
+        <input type="text" onfocus="this.value=''" value="Enter your item here" id="item">
+
+        
+        <button type="button" id="submit"><b>Submit</b></button>
+        <button type="button" id="clear" onclick=
+                "document.getElementById('item').value=''"><b>Clear</b></button>
+
+        <div class="c1">
+            <h3 id="list1">Your To Do List: </h3>
+            <ol class="c1" id="list">
+            </ol>
+        </div>        
+        
+
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+
+</html>
